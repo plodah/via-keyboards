@@ -76,7 +76,7 @@
                                 ["4", 3],
                                 ["5", 4]
                             ],
-                            "content": ["id_ploopystuff_dpi_preset", 0, 1]
+                            "content": ["id_ploopystuff_dpi_activepreset", 0, 1]
                         },
                         {
                             "label": "DPI Multiplier",
@@ -167,6 +167,7 @@
                             "label": "Dragscroll Divisor X",
                             "type": "dropdown",
                             "options": [
+                                ["Off", 0],
                                 ["1", 4],
                                 ["1.5", 6],
                                 ["2", 8],
@@ -194,6 +195,7 @@
                             "label": "Dragscroll Divisor Y",
                             "type": "dropdown",
                             "options": [
+                                ["Off", 0],
                                 ["1", 4],
                                 ["1.5", 6],
                                 ["2", 8],
@@ -297,13 +299,9 @@
                             "type": "dropdown",
                             "options": [
                                 ["100", 10],
-                                ["150", 15],
                                 ["200", 20],
-                                ["250", 25],
                                 ["300", 30],
-                                ["350", 35],
                                 ["400", 40],
-                                ["450", 45],
                                 ["500", 50],
                                 ["600", 60],
                                 ["700", 70],
@@ -316,20 +314,16 @@
                                 ["2000", 200],
                                 ["2400", 240]
                             ],
-                            "content": ["id_ploopystuff_dpi_preset[0]", 0, 31, 0]
+                            "content": ["id_ploopystuff_dpi_presets[0]", 0, 31, 0]
                         },
                         {
                             "label": "Preset 2",
                             "type": "dropdown",
                             "options": [
                                 ["100", 10],
-                                ["150", 15],
                                 ["200", 20],
-                                ["250", 25],
                                 ["300", 30],
-                                ["350", 35],
                                 ["400", 40],
-                                ["450", 45],
                                 ["500", 50],
                                 ["600", 60],
                                 ["700", 70],
@@ -342,20 +336,16 @@
                                 ["2000", 200],
                                 ["2400", 240]
                             ],
-                            "content": ["id_ploopystuff_dpi_preset[1]", 0, 31, 1]
+                            "content": ["id_ploopystuff_dpi_presets[1]", 0, 31, 1]
                         },
                         {
                             "label": "Preset 3",
                             "type": "dropdown",
                             "options": [
                                 ["100", 10],
-                                ["150", 15],
                                 ["200", 20],
-                                ["250", 25],
                                 ["300", 30],
-                                ["350", 35],
                                 ["400", 40],
-                                ["450", 45],
                                 ["500", 50],
                                 ["600", 60],
                                 ["700", 70],
@@ -368,20 +358,16 @@
                                 ["2000", 200],
                                 ["2400", 240]
                             ],
-                            "content": ["id_ploopystuff_dpi_preset[2]", 0, 31, 2]
+                            "content": ["id_ploopystuff_dpi_presets[2]", 0, 31, 2]
                         },
                         {
                             "label": "Preset 4",
                             "type": "dropdown",
                             "options": [
                                 ["100", 10],
-                                ["150", 15],
                                 ["200", 20],
-                                ["250", 25],
                                 ["300", 30],
-                                ["350", 35],
                                 ["400", 40],
-                                ["450", 45],
                                 ["500", 50],
                                 ["600", 60],
                                 ["700", 70],
@@ -394,20 +380,16 @@
                                 ["2000", 200],
                                 ["2400", 240]
                             ],
-                            "content": ["id_ploopystuff_dpi_preset[3]", 0, 31, 3]
+                            "content": ["id_ploopystuff_dpi_presets[3]", 0, 31, 3]
                         },
                         {
                             "label": "Preset 5",
                             "type": "dropdown",
                             "options": [
                                 ["100", 10],
-                                ["150", 15],
                                 ["200", 20],
-                                ["250", 25],
                                 ["300", 30],
-                                ["350", 35],
                                 ["400", 40],
-                                ["450", 45],
                                 ["500", 50],
                                 ["600", 60],
                                 ["700", 70],
@@ -420,7 +402,7 @@
                                 ["2000", 200],
                                 ["2400", 240]
                             ],
-                            "content": ["id_ploopystuff_dpi_preset[4]", 0, 31, 4]
+                            "content": ["id_ploopystuff_dpi_presets[4]", 0, 31, 4]
                         }
                     ]
                 },
