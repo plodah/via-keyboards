@@ -1,10 +1,10 @@
 {
-    "name": "PloopyCo Trackball",
+    "name": "PloopyCo Trackball Nano",
     "vendorId": "0x5043",
-    "productId": "0x5442",
+    "productId": "0x54A3",
     "matrix": {
-      "rows": 1,
-      "cols": 5
+        "rows": 1,
+        "cols": 1
     },
     "customKeycodes": [
         { "name": "DPI Config", "title": "DPI Config", "shortName": "DPI" },
@@ -21,36 +21,7 @@
         { "name": "Better DragSc Volume", "title": "Better Drag Scroll Volume", "shortName": "Drg Vol" }
     ],
     "layouts": {
-      "keymap": [
-        [
-          {
-            "h": 2
-          },
-          "0,0",
-          {
-            "x": 1,
-            "h": 2
-          },
-          "0,2",
-          {
-            "x": 0.5,
-            "h": 2
-          },
-          "0,3",
-          {
-            "h": 2
-          },
-          "0,4"
-        ],
-        [
-          {
-            "y": -0.75,
-            "x": 1,
-            "h": 1.5
-          },
-          "0,1"
-        ]
-      ]
+        "keymap": [["0,0"]]
     },
     "menus": [
         {
@@ -439,4 +410,4 @@
             ]
         }
     ]
-  }
+}
